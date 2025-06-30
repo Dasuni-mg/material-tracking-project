@@ -1,0 +1,27 @@
+{
+  "name": "materialtrackpro-device-panel",
+  "private": true,
+  "version": "0.0.0",
+  "main": "./app/main.js",
+  "scripts": {
+    "prestart": "vite build",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.9",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.0",
+    "serialport": "^10.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "electron": "^23.0.0-beta.3",
+    "vite": "^4.0.0"
+  }
+}
